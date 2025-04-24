@@ -16,6 +16,10 @@ body{
     align-items: center;
 }
 
+.pqn{
+    display: none;
+}
+
 .links{
     padding: 20px;
     width: 700px;
@@ -73,6 +77,16 @@ body{
     text-decoration: none;
     color: white;
     font-size: 25px;
+}
+
+@media screen and (max-width: 480px) {
+    .grande{
+        display: none;
+    }
+
+    .pqn{
+        display: block;
+    }
 }
 
 @media screen and (max-width: 430px) {
